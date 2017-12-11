@@ -4,7 +4,7 @@ var context = canvas.getContext('2d');
 var ball;
 var t;
 
-window.onload = function() {
+window.onload = function () {
     ball = new Ball(20, '#0000ff');
     ball.x = 0;
     ball.y = canvas.height - ball.radius;

@@ -4,7 +4,7 @@ var context = canvas.getContext('2d');
 var ball;
 var gravity = 0.1;
 
-window.onload = function() {
+window.onload = function () {
     ball = new Ball(20, '#0000ff');
     ball.x = 50;
     ball.y = 50;

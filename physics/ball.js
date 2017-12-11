@@ -7,10 +7,10 @@ function Ball(radius, color) {
     this.vy = 0;
 }
 
-Ball.prototype.draw = function(context) {
+Ball.prototype.draw = function (context) {
     context.fillStyle = this.color;
     context.beginPath();
-    context.arc(this.x, this.y, this.radius, 0, 2*Math.PI, true);
+    context.arc(this.x, this.y, this.radius, 0, 2 * Math.PI, true);
     context.closePath();
     context.fill();
 };
